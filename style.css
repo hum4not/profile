@@ -43,7 +43,16 @@ body {
     animation: glow 1.5s ease-in-out infinite alternate;
     animation: rainbow 5s linear infinite;
   }
-  
+
+  @media (max-width: 425px) {
+  #title {
+    font-size: 3em;
+  }
+  .button {
+    padding: 20px 40px;
+    font-size: 1.2em;
+  }
+
   @keyframes rainbow {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
