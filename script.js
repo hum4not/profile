@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    let video = $('<video muted></video>');
+    let video = $('<video></video>');
     video.attr('id', 'background-video');
     video.append('<source src="source.mp4" type="video/mp4">');
     $('body').append(video);
@@ -34,7 +34,7 @@ $(document).ready(function() {
     let videoElement = document.getElementById('background-video');
     if (videoElement) {
         videoElement.pause();
-        videoElement.currentTime = 0; // Возвращаем к началу
+        videoElement.currentTime = 0;
         videoElement.play();
     }
     }
