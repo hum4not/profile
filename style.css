@@ -44,7 +44,7 @@ body {
     animation: rainbow 5s linear infinite;
   }
 
-  @media (max-width: 425px) {
+  @media (max-width: 768px) {
   #title {
     font-size: 3em;
   }
